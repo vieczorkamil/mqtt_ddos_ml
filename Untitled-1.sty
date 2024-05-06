@@ -1,0 +1,14 @@
+\begin{table}[h!]
+        \centering
+        \def\arraystretch{1.2}
+        \begin{tabular}{cccc}
+        \textbf{} & & \multicolumn{2}{c}{Wartość oczekiwana} \\ \cline{3-4} 
+         & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Negatywna} & \multicolumn{1}{c|}{Pozytywna} \\ \cline{2-4} 
+        \multicolumn{1}{c|}{\multirow{2}{*}{\begin{sideways}\begin{tabular}[c]{@{}c@{}}Wartość  \\ rzeczywista\end{tabular}\end{sideways}}} & \multicolumn{1}{c|}{Negatywna} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Prawdziwie negatywna\\ \color{Green}\textbf{(TN)}\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Fałszywie pozytywna\\ \color{red}\textbf{(FP)}\end{tabular}}  \\ \cline{2-4} 
+        \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{Pozytywna} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Fałszywie negatywna\\ \color{red}\textbf{(FN)}\end{tabular}}  & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Prawdziwie pozytywna\\ \color{Green}\textbf{(TP)}\end{tabular}} \\ \cline{2-4} 
+        \end{tabular}
+        \caption{Macierz błędu}
+        \label{tab:macierz_bledu}
+    \end{table}
+
+    \FloatBarrier

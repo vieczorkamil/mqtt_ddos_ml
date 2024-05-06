@@ -1,0 +1,14 @@
+Dokładność modelu SVM: 0.78615
+Raport klasyfikacji SVM:
+              precision    recall  f1-score   support
+
+  bruteforce       0.00      0.00      0.00      2601
+        ddos       1.00      0.71      0.83     23545
+       flood       1.00      0.52      0.69       109
+  legitimate       0.70      1.00      0.82     30091
+   malformed       0.00      0.00      0.00      1997
+     slowite       1.00      0.14      0.24      1657
+
+    accuracy                           0.79     60000
+   macro avg       0.62      0.40      0.43     60000
+weighted avg       0.77      0.79      0.75     60000
